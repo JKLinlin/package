@@ -30,11 +30,11 @@ class BaiduSpider(object):
         input_thing.click()
         # 输入用户名
         input_phone_number = self.driver.find_element_by_id('TANGRAM__PSP_10__userName')
-        input_phone_number.send_keys('15190670945')
+        input_phone_number.send_keys('填写自己的百度账号')
         time.sleep(3)
         # 输入密码
         input_password = self.driver.find_element_by_id('TANGRAM__PSP_10__password')
-        input_password.send_keys('Ll950218')
+        input_password.send_keys('填写自己的百度密码')
         time.sleep(3)
         # 点击登录
         input_login = self.driver.find_element_by_id('TANGRAM__PSP_10__submit')
